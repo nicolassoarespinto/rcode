@@ -1,0 +1,10 @@
+Package: rcode
+Type: Package
+Title: Code that I find useful
+Version: 0.1.0
+Author: Nícolas Pinto
+Maintainer: 
+Description: 
+License: 
+Encoding: UTF-8
+LazyData: true
