@@ -1,4 +1,4 @@
-wtf = function (x) {
+View.excel = function (x) {
   tempFilePath = paste(tempfile(), ".csv")
   tempPath = dirname(tempFilePath)
   preferredFile = paste(deparse(substitute(x)), ".csv", sep = "")
