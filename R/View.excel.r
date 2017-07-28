@@ -1,4 +1,6 @@
 View.excel = function (x) {
+
+  if(nrow(x)>200*10^3){stop("This data.frame is too big for Excel")}
   tempFilePath = paste(tempfile(), ".csv")
   tempPath = dirname(tempFilePath)
   preferredFile = paste(deparse(substitute(x)), ".csv", sep = "")
